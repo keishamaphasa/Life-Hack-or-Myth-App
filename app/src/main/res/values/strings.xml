@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Life Hack or Myth App</string>
+    <string name="welcome_text">Welcome to Life Hack or Myth!</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_hack">Hack</string>
+    <string name="btn_myth">Myth</string>
+    <string name="progress">Question %1$d of %2$d</string>
+    <string name="score_text">You scored %1$d out of %2$d</string>
+    <string name="feedback_perfect">Wow! You answered all the questions correctly.</string>
+    <string name="feedback_good">Good job! You did well.</string>
+    <string name="feedback_poor">Keep practicing to improve your score.</string>
+    <string name="correct_answer">Correct answer, that\'s a time saver!</string>
+    <string name="wrong_answer">Wrong answer, try again.</string>
+    <string name="btn_review">Review</string>
+    <string name="btn_reset">Reset</string>
+</resources>
