@@ -18,17 +18,7 @@ shortcuts by identifying genuine life hacks from common urban myths.
 
 ## Screenshots
 
-### Welcome Screen
-![Welcome Screen](screenshots/welcome_screen.png)
 
-### Flashcard Screen
-![Flashcard Screen](screenshots/flashcard_screen.png)
-
-### Score Screen
-![Score Screen](screenshots/score_screen.png)
-
-### Review Screen
-![Review Screen](screenshots/review_screen.png)
 
 ---
 
@@ -57,9 +47,9 @@ push to main branch.
 ---
 
 ## Video Demo
-[Click here to watch the demo](your-youtube-link-here)
+[Click here to watch the demo]
+
 
 ---
 
-## 👤 Author
-Your Name Here
+Keisha Maphasa
