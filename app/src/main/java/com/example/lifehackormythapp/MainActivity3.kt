@@ -18,7 +18,7 @@ class MainActivity3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.`Score Screen.xml`)
+        setContentView(R.layout.score_screen)
 
 
         val score = intent.getIntExtra("score", 0)

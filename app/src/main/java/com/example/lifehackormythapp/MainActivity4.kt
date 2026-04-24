@@ -16,7 +16,7 @@ class MainActivity4 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.`Review Screen.xml`)
+        setContentView(R.layout.review_screen)
 
         val statements = intent.getStringArrayExtra("statements") ?: emptyArray()
         val explanations = intent.getStringArrayExtra("explanations") ?: emptyArray()

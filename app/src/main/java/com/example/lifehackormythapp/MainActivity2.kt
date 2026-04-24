@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.cardview.widget.CardView
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
@@ -26,6 +27,7 @@ class MainActivity2 : AppCompatActivity() {
 
     private lateinit var txtStatement: TextView
     private lateinit var txtFeedback: TextView
+    private lateinit var feedbackCard: CardView
     private lateinit var txtProgress: TextView
     private lateinit var btnHack: Button
     private lateinit var btnMyth: Button
@@ -88,12 +90,13 @@ class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.`Flashcard Question Screen.xml`)
+        setContentView(R.layout.flashcard_question_screen)
 
         Log.i(tag, "question screen created")
 
         txtStatement = findViewById(R.id.tvStatement)
         txtFeedback = findViewById(R.id.tvFeedback)
+        feedbackCard = findViewById(R.id.feedbackCard)
         txtProgress = findViewById(R.id.tvProgress)
         btnHack = findViewById(R.id.btnHack)
         btnMyth = findViewById(R.id.btnMyth)
@@ -133,7 +136,7 @@ class MainActivity2 : AppCompatActivity() {
     //Loads the current question onto the screen and resets the UI
     private fun loadQuestion() {
         answered = false
-        txtFeedback.visibility = View.INVISIBLE
+        feedbackCard.visibility = View.INVISIBLE
         btnNext.visibility = View.INVISIBLE
 
         val question = questions[currentIndex]
@@ -158,7 +161,7 @@ class MainActivity2 : AppCompatActivity() {
             txtFeedback.text = "Wrong answer, try again."
             Log.i(tag, "Wrong answer. Score: $score")
         }
-        txtFeedback.visibility = View.VISIBLE
+        feedbackCard.visibility = View.VISIBLE
         btnNext.visibility = View.VISIBLE
     }
 
