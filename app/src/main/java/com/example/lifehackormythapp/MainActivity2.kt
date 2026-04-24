@@ -88,7 +88,7 @@ class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.`Flashcard Question Screen.xml`)
 
         Log.i(tag, "question screen created")
 
